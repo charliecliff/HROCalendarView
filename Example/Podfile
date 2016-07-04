@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HROCalendarView_Example' do
+  pod 'HROCalendarView', :path => '../'
+
+  target 'HROCalendarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
